@@ -1,0 +1,18 @@
+config: {
+  log-level: INFO,
+  log-filename: /var/log/pic_loader/pic_loader.log,
+}
+
+serial: {
+  device: /dev/ttyUSB0,
+  baud: 57600,
+  timeout: 5
+}
+
+pic: {
+  reset-sequence: "RST\r",
+  reset-reply-sequence: "RST_OK\r",
+  firmware: /home/shade/Desktop/main.hex,
+  reset-max-attempts: 5
+}
+

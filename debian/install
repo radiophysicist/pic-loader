@@ -1,0 +1,4 @@
+src/{*.py} opt/pic_loader
+src/lib/{*.py} opt/pic_loader/lib
+src/app/{*.py} opt/pic_loader/app
+debian/misc/pic_loader.yaml etc/pic_loader

@@ -1,0 +1,15 @@
+config: {
+  log-level: INFO,
+}
+
+serial: {
+  device: /dev/sas_motors,
+  reset-device: /dev/sas_motors_gpio,
+  baud: 57600,
+  timeout: 3
+}
+
+pic: {
+  reset-sequence: "RST\r",
+  reset-reply-sequence: "RST_OK\r",
+}

@@ -1,0 +1,17 @@
+*.log
+*.substvars
+*.debhelper
+*.pyc
+*.prefs
+*.pid
+*.bak
+*.db
+*.orig
+
+.pydevproject
+doc/
+debian/pic-loader/*
+debian/changelog
+debian/files
+debian/substvars
+

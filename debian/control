@@ -1,0 +1,14 @@
+Source: pic-loader
+Section: python
+Priority: optional
+Maintainer: Denis Shatov <dshatov@gmail.com>
+Build-Depends: cdbs(>=0.4.90), debhelper (>= 7), dh-python, make
+X-Python-Version: >= 2.7
+Homepage: https://github.com/radiophysicist/pic-loader
+
+
+Package: pic-loader
+Architecture: all
+Version: 0.1
+Depends: ${misc:Depends}, ${python:Depends}, python (>=2.7) | python2.7, python-yaml, python-serial
+Description: Tiny PIC bootloader-compatible bootloader for PIC16F8XX microcontrollers

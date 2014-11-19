@@ -1,0 +1,25 @@
+# use glob syntax.
+syntax: glob
+
+*.pyc
+*.prefs
+*.pid
+*.bak
+*.log
+*.db
+*.orig
+
+syntax: regexp
+^\.pydevproject$
+^\.coverage$
+syntax: regexp
+^src/static$
+^src/index.html$
+^src/logging\.conf$
+^doc/html/*
+^doc/latex/*
+^debian/pic-loader/*
+^debian/files
+^debian/changelog
+^debian/sas-web-backend/*
+^src/.*yaml
