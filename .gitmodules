@@ -1,0 +1,3 @@
+[submodule "submodules/write-dch"]
+	path = submodules/write-dch
+	url = git@github.com:radiophysicist/write-dch.git
