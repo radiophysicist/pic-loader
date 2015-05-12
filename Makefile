@@ -5,7 +5,7 @@ all:	deb debclean
 
 
 deb: debclean
-	write_dch -b
+	submodules/write-dch/write_dch -b
 	fakeroot debian/rules binary
 
 
